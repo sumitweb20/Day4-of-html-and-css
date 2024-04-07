@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 1000px;
+            height: 400px;
+        }
+        h2{
+            text-align: center;
+            font-size: 30px;
+        }
+        .main{
+            width: 1000px;
+            height: 200px;
+            border: 2px solid black;
+            padding: 10px;
+        }
+        .main1{
+            background-color: orchid;
+            width: 200px;
+            height: 200px;
+            float: left;
+        }
+        .main10{
+            background-color: olive;
+            width: 200px;
+            height: 200px;
+            float: left;
+        }
+        .main20{
+            background-color: rosybrown;
+            width: 200px;
+            height: 200px;
+            float: left;
+        }
+        .main21{
+            background-color: aqua;
+            width: 200px;
+            height: 200px;
+            float: left;
+        }
+        .main:hover .main1{
+            background-color: greenyellow;
+        }
+        .main10:hover{
+            background-color: midnightblue;
+            width: 400px;
+            height: 400px;
+        }
+        .main20:hover~.main21{
+         background-color: black;
+         border-radius: 20px;
+         height: 400px;
+         width: 400px;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Practice of Hover</h2>
+    <div class="main">
+        <div class="main1"></div>
+        <div  class="main10"></div>
+        <div  class="main20"></div>
+        <div  class="main21"></div>
+    </div>
+  </div>
+</body>
+</html>
